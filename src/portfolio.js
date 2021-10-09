@@ -5,7 +5,7 @@ const header = {
 const about = {
   name: 'Aryan Yadav',
   role: '',
-  resume: 'https://drive.google.com/file/d/1XQlZAT6FInJqLkJp95aX9n-_pp6-R1Ul/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1Eom9aZRRAP640LjUgBXZaQJuaRIinaU2/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/aryan-yadav-2b95801b5/',
     github: 'https://github.com/Aryan77',
