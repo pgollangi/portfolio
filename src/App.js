@@ -7,6 +7,8 @@ import Experience from './components/Experience/Experience'
 import Skills from './components/Skills/Skills'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
+import Current from './components/Current/Current'
+
 import Footer from './components/Footer/Footer'
 import './App.css'
 
@@ -22,6 +24,7 @@ const App = () => {
         <Skills />
         <Experience />
         <Projects />
+        <Current />
         <Contact />
       </main>
 

@@ -7,8 +7,8 @@ const about = {
   role: '',
   resume: 'https://drive.google.com/file/d/1XQlZAT6FInJqLkJp95aX9n-_pp6-R1Ul/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/aryan-yadav-2b95801b5/',
+    github: 'https://github.com/Aryan77',
   },
 }
 
