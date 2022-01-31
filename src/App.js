@@ -28,7 +28,6 @@ const App = () => {
         <Contact />
       </main>
 
-      <ScrollToTop />
       <Footer />
     </div>
   )

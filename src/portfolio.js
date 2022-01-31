@@ -5,7 +5,8 @@ const header = {
 const about = {
   name: 'Aryan Yadav',
   role: '',
-  resume: 'https://drive.google.com/file/d/1Eom9aZRRAP640LjUgBXZaQJuaRIinaU2/view?usp=sharing',
+  resume:
+    'https://drive.google.com/file/d/1Eom9aZRRAP640LjUgBXZaQJuaRIinaU2/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/aryan-yadav-2b95801b5/',
     github: 'https://github.com/Aryan77',
@@ -33,7 +34,8 @@ const projects = [
     description:
       'Large Java project (~14000 lines) for honors OOP class where I built a system that simulated a world of critters that wander around, eat food, reproduce and evolve. Involved writing a parser and interpreter for a DSL that would describe evolution, coupled with a GUI simulation.',
     stack: ['Java', 'JavaFX'],
-    livePreview: 'https://www.cs.cornell.edu/courses/cs2112/2021fa/project/project.pdf?1632534588'
+    livePreview:
+      'https://www.cs.cornell.edu/courses/cs2112/2021fa/project/project.pdf?1632534588',
   },
 ]
 
@@ -52,32 +54,26 @@ const experiences = [
     stack: ['TypeScript', 'Vue', 'Firebase', ''],
     sourceCode: 'https://github.com/cornell-dti/course-plan',
     livePreview: 'https://courseplan.io/',
-  }
+  },
 ]
 
 const skills = [
   'TypeScript',
   'JavaScript',
+  'Node.js',
+  'Express.js',
+  'Firebase',
+  'React.js',
+  'Vue.js',
   'Python',
   'Java',
   'C++',
-  'C',
   'OCaml',
-  'React',
-  'Vue',
-  'Node.JS',
-  'Express',
-  'Flask',
-  'Spring',
   'Numpy',
   'Pandas',
   'Sklearn',
-  'Firebase',
-  'MySQL',
-  'Heroku',
-  'Docker'
+  'Docker',
 ]
-
 
 const contact = {
   email: 'ay394@cornell.edu',

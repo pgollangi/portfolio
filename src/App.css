@@ -8,22 +8,12 @@
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-bg: #f2e5bc;
+  --clr-bg-alt: #f2e5bc;
+  --clr-fg: #000;
+  --clr-fg-alt: #000;
+  --clr-primary: #458588;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 main {
@@ -65,7 +55,7 @@ main {
   position: absolute;
   bottom: 0;
   background-color: var(--clr-primary);
-  transition: width 0.2s ease-in;
+  transition: width 0.05s ease-in;
 }
 
 .link:hover::before,
@@ -88,7 +78,7 @@ main {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.05s ease-in-out;
 }
 
 .btn--outline {
@@ -113,7 +103,7 @@ main {
   left: 0;
   top: 0;
   z-index: -1;
-  transition: right 0.2s ease-in-out;
+  transition: right 0.05s ease-in-out;
 }
 
 .btn--outline:hover:before,
