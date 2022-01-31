@@ -6,7 +6,7 @@ const about = {
   name: 'Aryan Yadav',
   role: '',
   resume:
-    'https://drive.google.com/file/d/1Eom9aZRRAP640LjUgBXZaQJuaRIinaU2/view?usp=sharing',
+    'https://drive.google.com/file/d/1c2UUGPv3Eu29QMpbA556sf-0MBpkYjs1/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/aryan-yadav-2b95801b5/',
     github: 'https://github.com/Aryan77',
@@ -20,6 +20,12 @@ const projects = [
       'A data science + machine learning library for OCaml that replicates and combines the most commonly used functionality of three famous Python libraries - Numpy, Pandas, Sklearn. Integrates well with the Archimedes library for graphing, and can thus be used for every step of a regular machine learning workflow.',
     stack: ['OCaml', 'Jupyter Notebooks'],
     sourceCode: 'https://github.com/Aryan77/ocaml-data-science-ml',
+  },
+  {
+    name: 'MapReduce',
+    description: `A C++ implementation of Google's infamous MapReduce paper from scratch. My specific implementation presents the most frequent n-grams from a massive amount of text files, processing them in parallel; but the code can be used for any use case that involves processing an enormous amount of data concurrently and as quickly as possible.`,
+    stack: ['C++', 'Bash'],
+    sourceCode: 'https://github.com/Aryan77/MapReduce',
   },
   {
     name: 'CoursePlan',

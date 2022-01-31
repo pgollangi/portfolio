@@ -22,6 +22,11 @@ const Current = () => {
         by Martin Kleppman, and enjoying it immensely.
         <br />
         <br />
+        I am also following the Distributed Systems course from MIT and
+        attempting to build my own persistent, fault-tolerant, performant NoSQL
+        database using Go.
+        <br />
+        <br />
         Some modern databases like{' '}
         <a
           href='https://github.com/cockroachdb/cockroach'

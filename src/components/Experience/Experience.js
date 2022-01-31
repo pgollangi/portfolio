@@ -12,6 +12,28 @@ const Experience = () => {
         <ul className='tl'>
           <li className='tl-item' ng-repeat='item in retailer_history'>
             <div className='timestamp'>
+              <b>Dec 2021 - Present</b>
+              <br />
+              Ithaca, New York
+              <br />
+            </div>
+            <div className='item-title'>
+              <a href='https://www.cornelldti.org/' className='link link--nav'>
+                AI Learners
+              </a>
+              <br /> -- Software Engineer Intern
+            </div>
+
+            <div className='item-detail'>
+              <br />
+              Working on a major refactoring of our game engine, so instead of
+              coding games manually, our engine will generate them automatically
+              by parsing our internal representation of game data.
+            </div>
+          </li>
+
+          <li className='tl-item' ng-repeat='item in retailer_history'>
+            <div className='timestamp'>
               <b>Oct 2021 - Present</b>
               <br />
               Ithaca, New York
@@ -21,14 +43,19 @@ const Experience = () => {
               <a href='https://www.cornelldti.org/' className='link link--nav'>
                 Cornell DTI
               </a>
-              <br /> -- Full-Stack Developer
+              <br /> -- Full Stack Developer
             </div>
-            {/*
-            <div className="item-detail">
+
+            <div className='item-detail'>
               <br />
-               Just completed my onboarding and started contributing to <a href="https://courseplan.io/" className='link link--nav'>CoursePlan.</a> 
+              Working on{' '}
+              <a href='https://courseplan.io/' className='link link--nav'>
+                CoursePlan
+              </a>
+              , specifically on a new feature that would provide students a
+              suggested template for a 4-year completion of their major and plan
+              classes accordingly.
             </div>
-            */}
           </li>
           <li className='tl-item' ng-repeat='item in retailer_history'>
             <div className='timestamp'>
@@ -41,32 +68,31 @@ const Experience = () => {
               <a href='https://www.f1soft.com/' className='link link--nav'>
                 F1Soft International
               </a>
-              <br /> -- Part-Time Junior Software Engineer
+              <br /> -- Junior Software Engineer (part-time)
             </div>
-            {/*
+
             <div className='item-detail'>
-              <br />
-              I was stuck in Nepal for the entirety of my freshman year owing to
-              COVID-19; I made the best of it by returning to F1Soft. I: <br />
               <br />- Worked on the web version of{' '}
               <a href='https://www.esewa.com.np/' className='link link--nav'>
                 esewa.com
               </a>
               , the largest online payment service in Nepal with more than 10
-              million users. <br />
+              million users; I was part of the team that integrated payment
+              services of other companies into our app. <br />
+              - Improved user performance significantly by implementing a robust
+              system of caching and prefetching most commonly used services.
               <br />
-              - Communicated and worked with teams from Cinemaghar(cinema
-              company) and TechMinds(internet company) to set up APIs on their
-              end that would facilitate payment through a third party, and
-              implemented these services seamlessly into the main app. <br />
               <br />
-              - Improved user performance significantly by caching most commonly
-              used payment services for a user and prefetching current prices
-              for those services in the background once the website (or app) was
-              opened. <br />
+              My mentor was kind enough to write me an{' '}
+              <a
+                href='https://www.linkedin.com/in/aryan-yadav-2b95801b5/'
+                className='link link--nav'
+              >
+                excellent recommendation on my LinkedIn page
+              </a>
+              .
               <br />
             </div>
-            */}
           </li>
           <li className='tl-item' ng-repeat='item in retailer_history'>
             <div className='timestamp'>
@@ -83,17 +109,8 @@ const Experience = () => {
             </div>
             <div className='item-detail'>
               <br />
-              This was my first software engineering internship, right after
-              high school. I:
-              <br />
-              <br />
-              - Implemented basic routes for new payment services. <br />
-              <br />
-              - Documented the API spec for these new services, constantly
-              communicated with the frontend team to improve abstraction and
-              implement routes that made certain frontend tasks easier. <br />
-              <br />- Wrote comprehensive JUnit tests that identified several
-              previously unnoticed bugs.
+              Documented API spec for new payment services and implemented the
+              respective routes, testing everything thoroughly.
             </div>
           </li>
         </ul>
