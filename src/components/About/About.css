@@ -1,3 +1,4 @@
+/*
 .about {
   flex-direction: column;
   margin-top: 3em;
@@ -13,7 +14,7 @@
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .about__desc,
@@ -34,4 +35,12 @@
     align-items: flex-start;
     margin-top: 2em;
   }
+}
+*/
+
+.grid-container {
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: 70% 10%;
+  grid-gap: 5%;
 }

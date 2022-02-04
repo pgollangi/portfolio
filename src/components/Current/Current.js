@@ -5,8 +5,7 @@ const Current = () => {
   const { name, role, description, resume, social } = about
   return (
     <div className='about center'>
-      <h2 className='section__title'>Currently learning</h2>
-      <p className='about__desc'>
+      <p className='current__desc'>
         My class on{' '}
         <a
           href='http://www.cs.cornell.edu/courses/cs4414/2021fa/'
