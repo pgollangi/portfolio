@@ -7,52 +7,40 @@ import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
 
-const Navbar = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext)
-  const [showNavList, setShowNavList] = useState(false)
+const Navbar = () => (
+  <nav className='center nav'>
+    <ul className='nav__list'>
+      <li className='nav__list-item'>
+        <a href='#skills' onClick={null} className='link link--nav'>
+          Skills
+        </a>
+      </li>
 
-  const toggleNavList = () => setShowNavList(!showNavList)
+      <li className='nav__list-item'>
+        <a href='#experience' onClick={null} className='link link--nav'>
+          Experience
+        </a>
+      </li>
 
-  return (
-    <nav className='center nav'>
-      <ul
-        style={{ display: showNavList ? 'flex' : null }}
-        className='nav__list'
-      >
-        <li className='nav__list-item'>
-          <a
-            href='#experience'
-            onClick={toggleNavList}
-            className='link link--nav'
-          >
-            Experience
-          </a>
-        </li>
+      <li className='nav__list-item'>
+        <a href='#projects' onClick={null} className='link link--nav'>
+          Projects
+        </a>
+      </li>
 
-        <li className='nav__list-item'>
-          <a
-            href='#projects'
-            onClick={toggleNavList}
-            className='link link--nav'
-          >
-            Projects
-          </a>
-        </li>
+      <li className='nav__list-item'>
+        <a href='#current' onClick={null} className='link link--nav'>
+          Current
+        </a>
+      </li>
 
-        <li className='nav__list-item'>
-          <a href='#skills' onClick={toggleNavList} className='link link--nav'>
-            Skills
-          </a>
-        </li>
-
-        <li className='nav__list-item'>
-          <a href='#contact' onClick={toggleNavList} className='link link--nav'>
-            Contact
-          </a>
-        </li>
-      </ul>
-    </nav>
-  )
-}
+      <li className='nav__list-item'>
+        <a href='#contact' onClick={null} className='link link--nav'>
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+)
 
 export default Navbar

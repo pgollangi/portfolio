@@ -7,9 +7,32 @@ const Experience = () => {
 
   return (
     <section id='experience' className='section__experience'>
-      <h2 className='section__title'>Experience</h2>
       <div className='history-tl-container'>
+        <br />
+        <br />
+
         <ul className='tl'>
+          <li className='tl-item' ng-repeat='item in retailer_history'>
+            <div className='item-title'>
+              <a
+                href='https://unipantry-site.webflow.io/'
+                className='link link--nav'
+              >
+                UniPantry
+              </a>
+            </div>
+
+            <div className='item-detail'>
+              <b>
+                Software Engineer Intern <br /> Feb 2022 - Present <br />
+                Ithaca, New York
+              </b>
+              <br />
+              <br />
+              Beginning my onboarding!
+            </div>
+          </li>
+
           <li className='tl-item' ng-repeat='item in retailer_history'>
             <div className='item-title'>
               <a href='https://www.cornelldti.org/' className='link link--nav'>
@@ -18,31 +41,39 @@ const Experience = () => {
             </div>
 
             <div className='item-detail'>
-              Software Engineer Intern | <b>Dec 2021 - Present</b> | Ithaca, New
-              York
+              <b>
+                Software Engineer Intern <br /> Dec 2021 - Feb 2022 <br />
+                Ithaca, New York
+              </b>
               <br />
               <br />
-              Working on a major refactoring of our game engine, so instead of
-              coding games manually, our engine will generate them automatically
-              by parsing our internal representation of game data.
+              Worked on a major refactoring of the game engine, so instead of
+              coding games manually, the engine would generate them
+              automatically by parsing the internal representation of game data.
             </div>
           </li>
 
           <li className='tl-item' ng-repeat='item in retailer_history'>
+            {/*
             <div className='timestamp'>
               <b>Oct 2021 - Present</b>
               <br />
               Ithaca, New York
               <br />
             </div>
+            */}
             <div className='item-title'>
               <a href='https://www.cornelldti.org/' className='link link--nav'>
                 Cornell DTI
               </a>
-              <br /> -- Full Stack Developer
             </div>
 
             <div className='item-detail'>
+              <b>
+                Software Engineer <br /> Sep 2021 - Feb 2022 (Currently on
+                sabbatical) <br /> Ithaca, New York
+              </b>
+              <br />
               <br />
               Working on{' '}
               <a href='https://courseplan.io/' className='link link--nav'>
@@ -54,20 +85,18 @@ const Experience = () => {
             </div>
           </li>
           <li className='tl-item' ng-repeat='item in retailer_history'>
-            <div className='timestamp'>
-              <b>Aug 2020 - Aug 2021</b>
-              <br />
-              Kathmandu, Nepal
-              <br />
-            </div>
             <div className='item-title'>
               <a href='https://www.f1soft.com/' className='link link--nav'>
                 F1Soft International
               </a>
-              <br /> -- Junior Software Engineer (part-time)
             </div>
 
             <div className='item-detail'>
+              <b>
+                Junior Software Engineer (part-time) <br /> Aug 2020 - Aug 2021{' '}
+                <br /> Kathmandu, Nepal
+              </b>
+              <br />
               <br />- Worked on the web version of{' '}
               <a href='https://www.esewa.com.np/' className='link link--nav'>
                 esewa.com
@@ -91,19 +120,17 @@ const Experience = () => {
             </div>
           </li>
           <li className='tl-item' ng-repeat='item in retailer_history'>
-            <div className='timestamp'>
-              <b>Jun 2020 - Aug 2020</b>
-              <br />
-              Kathmandu, Nepal
-              <br />
-            </div>
             <div className='item-title'>
               <a href='https://www.f1soft.com/' className='link link--nav'>
                 F1Soft International
               </a>
-              <br /> -- Software Engineer Intern
             </div>
             <div className='item-detail'>
+              <b>
+                Software Engineer Intern <br /> Jun 2020 - Aug 2020 <br />
+                Ithaca, New York
+              </b>
+              <br />
               <br />
               Documented API spec for new payment services and implemented the
               respective routes, testing everything thoroughly.
