@@ -40,8 +40,6 @@ const projects = [
     description:
       'Large Java project (~14000 lines) for honors OOP class where I built a system that simulated a world of critters that wander around, eat food, reproduce and evolve. Involved writing a parser and interpreter for a DSL that would describe evolution, coupled with a GUI simulation.',
     stack: ['Java', 'JavaFX'],
-    livePreview:
-      'https://www.cs.cornell.edu/courses/cs2112/2021fa/project/project.pdf?1632534588',
   },
 ]
 
