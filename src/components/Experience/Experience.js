@@ -11,20 +11,16 @@ const Experience = () => {
       <div className='history-tl-container'>
         <ul className='tl'>
           <li className='tl-item' ng-repeat='item in retailer_history'>
-            <div className='timestamp'>
-              <b>Dec 2021 - Present</b>
-              <br />
-              Ithaca, New York
-              <br />
-            </div>
             <div className='item-title'>
               <a href='https://www.cornelldti.org/' className='link link--nav'>
                 AI Learners
               </a>
-              <br /> -- Software Engineer Intern
             </div>
 
             <div className='item-detail'>
+              Software Engineer Intern | <b>Dec 2021 - Present</b> | Ithaca, New
+              York
+              <br />
               <br />
               Working on a major refactoring of our game engine, so instead of
               coding games manually, our engine will generate them automatically
