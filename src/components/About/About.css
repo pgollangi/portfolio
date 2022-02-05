@@ -43,4 +43,5 @@
   display: grid;
   grid-template-columns: 70% 10%;
   grid-gap: 5%;
+  line-height: 150%;
 }

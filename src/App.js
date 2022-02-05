@@ -104,9 +104,8 @@ const App = () => {
         {state === 'experience' && <Experience />}
         {state === 'projects' && <Projects />}
         {state === 'current' && <Current />}
+        <Footer />
       </main>
-
-      <Footer />
     </div>
   )
 }
