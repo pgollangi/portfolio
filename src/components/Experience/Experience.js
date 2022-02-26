@@ -28,8 +28,13 @@ const Experience = () => {
               Ithaca, New York
             </b>
             <br />
-            <br />
-            Beginning my onboarding!
+            <br />- Working on an internal tool to automate the process of
+            migrating the large amount of video data we store locally to Google
+            Cloud Storage.
+            <br />- Implementing major refactoring of our FireStore database to
+            reduce latency by refactoring documents with monotonically
+            increasing IDs, limiting individual and global client write rates,
+            and using async calls whenever possible.
           </div>
         </li>
 
