@@ -20,6 +20,12 @@ const App = () => {
   return (
     <div id='top' className={`${themeName} app`}>
       <main>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <About />
         <br />
         <br />
@@ -104,7 +110,12 @@ const App = () => {
         {state === 'experience' && <Experience />}
         {state === 'projects' && <Projects />}
         {state === 'current' && <Current />}
-        <Footer />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </main>
     </div>
   )
