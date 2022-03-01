@@ -8,8 +8,9 @@ const about = {
   resume:
     'https://drive.google.com/file/d/1c2UUGPv3Eu29QMpbA556sf-0MBpkYjs1/view?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/aryan-yadav-2b95801b5/',
+    linkedin: 'https://www.linkedin.com/in/aryanyadav4',
     github: 'https://github.com/Aryan77',
+    email: 'mailto:ay394@cornell.edu',
   },
 }
 
