@@ -4,7 +4,7 @@ import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, resume, social, email } = about
 
   return (
     <div className='grid-container'>
@@ -26,10 +26,9 @@ const About = () => {
           also dabble in machine learning and systems programming.
           <br /> <br />
           <b>
-            {' '}
             I am currently looking for software engineering internships for
-            Summer 2022.{' '}
-          </b>{' '}
+            Summer 2022.
+          </b>
           <br /> <br />
         </p>
       </div>
