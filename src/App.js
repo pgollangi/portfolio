@@ -16,7 +16,7 @@ import './App.css'
 
 const App = (props) => {
   const [{ themeName }] = useContext(ThemeContext)
-  const [state, setState] = useState('contact')
+  const [state, setState] = useState('')
   const {resume} = props
 
   return (
