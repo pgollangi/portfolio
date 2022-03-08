@@ -2,7 +2,7 @@ import uniqid from 'uniqid'
 import './About.css'
 
 const About = (props) => {
-  const { resumeJson } = props;
+  const { resume: resumeJson } = props;
   const { basics } = resumeJson;
   const { name, role, profiles, resume } = basics;
   
