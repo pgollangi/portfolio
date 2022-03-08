@@ -1,7 +1,8 @@
 import uniqid from 'uniqid'
 import './Skills.css'
 
-const Skills = (resume) => {
+const Skills = (props) => {
+  const { resume } = props;
   const {skills} = resume;
   if (!skills.length) return null
 

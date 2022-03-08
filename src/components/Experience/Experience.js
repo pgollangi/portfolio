@@ -8,7 +8,8 @@ function formatDate(date) {
   return new Date(date).toLocaleDateString("en-US", { month: 'long', year: 'numeric' });
 }
 
-const Experience = (resume) => {
+const Experience = (props) => {
+  const { resume } = props;
   const { work } = resume;
   if (!work.length) return null
 

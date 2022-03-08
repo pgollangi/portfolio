@@ -1,12 +1,12 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import uniqid from 'uniqid'
 import './About.css'
 
-const About = (resume) => {
+const About = (props) => {
+  const { resume } = props;
   const { basics } = resume;
   const { name, role, profiles } = basics;
-  return (
+  
+  return ( 
     <div className='grid-container'>
       <div className='grid-child details'>
         {name && (

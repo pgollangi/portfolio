@@ -13,9 +13,10 @@ import Current from './components/Current/Current'
 import Footer from './components/Footer/Footer'
 import './App.css'
 
-const App = (resume) => {
+const App = (props) => {
   const [{ themeName }] = useContext(ThemeContext)
   const [state, setState] = useState('contact')
+  const {resume} = props
 
   return (
     <div id='top' className={`${themeName} app`}>

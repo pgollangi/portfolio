@@ -8,6 +8,7 @@ import './index.css'
 //   const resumeGist = gists.find(g => g.files['resume.json']);
 fetch('https://gist.githubusercontent.com/pgollangi/35c665d579446bf8da69a65515512aed/raw/a8b366333153e82ddff15df3576e3062dca27b0b/resume.json' /* resumeGist.files['resume.json'].raw_url */)
   .then(r => r.json()).then(resume => {
+    console.log(resume);
     render(
       <ThemeProvider>
         <App resume={resume} />

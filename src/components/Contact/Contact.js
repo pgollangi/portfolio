@@ -1,7 +1,8 @@
 import { contact } from '../../portfolio'
 import './Contact.css'
 
-const Contact = (resume) => {
+const Contact = (props) => {
+  const { resume } = props;
   const { basics } = resume;
   if (!basics.email) return null
 
