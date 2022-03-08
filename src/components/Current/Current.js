@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { about } from '../../portfolio'
 import './Current.css'
 

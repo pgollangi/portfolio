@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { contact } from '../../portfolio'
 import './Contact.css'
 
