@@ -2,9 +2,9 @@ import uniqid from 'uniqid'
 import './About.css'
 
 const About = (props) => {
-  const { resume } = props;
-  const { basics } = resume;
-  const { name, role, profiles } = basics;
+  const { resumeJson } = props;
+  const { basics } = resumeJson;
+  const { name, role, profiles, resume } = basics;
   
   return ( 
     <div className='grid-container'>
@@ -30,7 +30,7 @@ const About = (props) => {
 
       <div className='grid-child links'>
         <br />
-        <a href="https://gitconnected.com/pgollangi/resume" className='link link--nav' rel='noopener noreferrer' target='_blank'>
+        <a href={resume} className='link link--nav' rel='noopener noreferrer' target='_blank'>
           Resume
         </a>
 
