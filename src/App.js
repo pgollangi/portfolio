@@ -13,7 +13,7 @@ import Current from './components/Current/Current'
 import Footer from './components/Footer/Footer'
 import './App.css'
 
-const App = () => {
+const App = (resume) => {
   const [{ themeName }] = useContext(ThemeContext)
   const [state, setState] = useState('contact')
 
@@ -26,14 +26,14 @@ const App = () => {
         <br />
         <br />
         <br />
-        <About />
+        <About  resume={resume}/>
         <br />
         <br />
         <br />
 
         {state === 'skills' ? (
           <a
-            href='#.'
+            href='#skills'
             onClick={() => setState('skills')}
             className='link link--nav--pressed'
           >
@@ -41,7 +41,7 @@ const App = () => {
           </a>
         ) : (
           <a
-            href='#.'
+            href='#skills'
             onClick={() => setState('skills')}
             className='link link--nav'
           >
@@ -52,7 +52,7 @@ const App = () => {
 
         {state === 'experience' ? (
           <a
-            href='#.'
+            href='#experience'
             onClick={() => setState('experience')}
             className='link link--nav--pressed'
           >
@@ -60,7 +60,7 @@ const App = () => {
           </a>
         ) : (
           <a
-            href='#.'
+            href='#experience'
             onClick={() => setState('experience')}
             className='link link--nav'
           >
@@ -71,7 +71,7 @@ const App = () => {
 
         {state === 'projects' ? (
           <a
-            href='#a'
+            href='#projects'
             onClick={() => setState('projects')}
             className='link link--nav--pressed'
           >
@@ -79,14 +79,14 @@ const App = () => {
           </a>
         ) : (
           <a
-            href='#a'
+            href='#projects'
             onClick={() => setState('projects')}
             className='link link--nav'
           >
             Projects
           </a>
         )}
-        {'       |       '}
+        {/* {'       |       '}
 
         {state === 'current' ? (
           <a
@@ -104,12 +104,33 @@ const App = () => {
           >
             Current
           </a>
+        )} */}
+
+        {'       |       '}
+
+        {state === 'contact' ? (
+          <a
+            href='#contact'
+            onClick={() => setState('contact')}
+            className='link link--nav--pressed'
+          >
+            Contact
+          </a>
+        ) : (
+          <a
+            href='#contact'
+            onClick={() => setState('contact')}
+            className='link link--nav'
+          >
+            Contact
+          </a>
         )}
 
-        {state === 'skills' && <Skills />}
-        {state === 'experience' && <Experience />}
-        {state === 'projects' && <Projects />}
-        {state === 'current' && <Current />}
+        {state === 'skills' && <Skills resume={resume}/>}
+        {state === 'experience' && <Experience resume={resume}/>}
+        {state === 'projects' && <Projects resume={resume}/>}
+        {/* {state === 'current' && <Current resume={resume}/>} */}
+        {state === 'contact' && <Contact resume={resume}/>}
         <br />
         <br />
         <br />

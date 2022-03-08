@@ -7,7 +7,7 @@ const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3 className='project__title'>{project.name}</h3>
 
-    <p className='project__description'>{project.description}</p>
+    <p className='project__description'>{project.summary}</p>
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
@@ -19,15 +19,15 @@ const ProjectContainer = ({ project }) => (
     )}
 
     {project.sourceCode && (
-      <a href={project.sourceCode} className='link link--nav'>
+      <a href={project.sourceCode} className='link link--nav' rel='noopener noreferrer' target='_blank'>
         Github
       </a>
     )}
     {'              '}
 
-    {project.livePreview && (
-      <a href={project.livePreview} className='link link--nav'>
-        Demo
+    {project.url && (
+      <a href={project.url} className='link link--nav' rel='noopener noreferrer' target='_blank'>
+        view
       </a>
     )}
   </div>

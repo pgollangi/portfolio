@@ -1,9 +1,9 @@
 import uniqid from 'uniqid'
-import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import './Projects.css'
 
-const Projects = () => {
+const Projects = (resume) => {
+  const { projects } = resume;
   if (!projects.length) return null
 
   return (

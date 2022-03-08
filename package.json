@@ -1,8 +1,8 @@
 {
-  "name": "Aryan77.github.io",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Aryan77.github.io/",
+  "homepage": "https://p11r.dev/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",

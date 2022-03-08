@@ -28,11 +28,11 @@ const Navbar = () => (
         </a>
       </li>
 
-      <li className='nav__list-item'>
+      {/* <li className='nav__list-item'>
         <a href='#current' onClick={null} className='link link--nav'>
           Current
         </a>
-      </li>
+      </li> */}
 
       <li className='nav__list-item'>
         <a href='#contact' onClick={null} className='link link--nav'>

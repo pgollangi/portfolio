@@ -1,16 +1,16 @@
 const header = {
-  homepage: 'https://Aryan77.github.io/',
+  homepage: 'https://p11r.dev/',
 }
 
 const about = {
-  name: 'Aryan Yadav',
-  role: '',
-  resume:
-    'https://drive.google.com/file/d/1c2UUGPv3Eu29QMpbA556sf-0MBpkYjs1/view?usp=sharing',
+  name: 'Prasanna Kumar Gollangi',
+  role: 'Lead Software Engineer',
+  resume: 'https://gitconnected.com/pgollangi/resume',
+  email: 'prassu158@gmail.com',
   social: {
-    linkedin: 'https://www.linkedin.com/in/aryanyadav4',
-    github: 'https://github.com/Aryan77',
-    email: 'mailto:ay394@cornell.edu',
+    linkedin: 'https://www.linkedin.com/in/pgollangi',
+    github: 'https://github.com/pgollangi',
+    email: 'mailto:prassu158@gmail.com',
   },
 }
 
@@ -63,25 +63,28 @@ const experiences = [
 ]
 
 const skills = [
-  'TypeScript',
   'JavaScript',
-  'Node.js',
-  'Express.js',
-  'Firebase',
-  'React.js',
-  'Vue.js',
-  'Python',
+  'TypeScript',
+  'Backbone.js',
+  'Angular',
+  'Ionic',
+  'WebComponents',
   'Java',
-  'C++',
-  'OCaml',
-  'Numpy',
-  'Pandas',
-  'Sklearn',
-  'Docker',
+  'Node.js',
+  'SpringBoot',
+  'Serverless',
+  'Postgres',
+  'Hibernate',
+  "Eclipse",
+  "Git",
+  "Perforce",
+  "CloudFoundry",
+  "Docker",
+  "Gitlab CI/CD"
 ]
 
 const contact = {
-  email: 'ay394@cornell.edu',
+  email: 'prassu158@gmail.com',
 }
 
 export { header, about, projects, experiences, skills, contact }

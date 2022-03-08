@@ -1,11 +1,11 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { about } from '../../portfolio'
+import uniqid from 'uniqid'
 import './About.css'
 
-const About = () => {
-  const { name, role, description, resume, social, email } = about
-
+const About = (resume) => {
+  const { basics } = resume;
+  const { name, role, profiles } = basics;
   return (
     <div className='grid-container'>
       <div className='grid-child details'>
@@ -19,41 +19,28 @@ const About = () => {
 
         {role && <h2 className='about__role'>{role}</h2>}
         <p className='about__desc'>
-          &#128075; I&apos;m Aryan, a sophomore CS student at Cornell
-          University.
+          &#128075; I&apos;m Prasanna, a full stack web developer who can build apps from the ground up.
           <br /> <br />
-          I enjoy building web applications, on all levels of the tech stack. I
-          also dabble in machine learning and systems programming.
+          I am a very product focussed developer who prioritizes user feedback first and foremost. I&apos;m generally very flexible when investigating new roles.
           <br /> <br />
-          <b>
-            I am currently looking for software engineering internships for
-            Summer 2022.
-          </b>
+          I enjoy building web applications, on all levels of the tech stack.
           <br /> <br />
         </p>
       </div>
 
       <div className='grid-child links'>
         <br />
-        <a href={resume} className='link link--nav'>
+        <a href="https://gitconnected.com/pgollangi/resume" className='link link--nav' rel='noopener noreferrer' target='_blank'>
           Resume
         </a>
-        <br />
 
-        <a href={social.github} className='link link--nav'>
-          Github
-        </a>
-        <br />
-
-        <a href={social.linkedin} className='link link--nav'>
-          LinkedIn
-        </a>
-        <br />
-
-        <a href='mailto:ay394@cornell.edu' className='link link--nav'>
-          Email
-        </a>
-        <br />
+        {profiles.map(p => (
+          <span key={uniqid()}><br />
+            <a key={uniqid()} href={p.url} className='link link--nav' rel='noopener noreferrer' target='_blank'>
+              {p.network}
+            </a>
+          </span>
+        ))}
       </div>
     </div>
   )
